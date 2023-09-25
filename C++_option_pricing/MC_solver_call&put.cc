@@ -76,8 +76,6 @@ using namespace std;
 // Create 3 seperate paths, each with either an increment , decrement or non-decrement
 // based on delta_S, the stock path parameter
 // void because have to return diferent prices so pass them as ref
-
-
 void monte_carlo_call_price(const int num_sims, const double S, const double K, 
                             const double r, const double sig, const double T,
                             const double delta_S, double& price_Sp, double& price_S,
